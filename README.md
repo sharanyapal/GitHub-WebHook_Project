@@ -5,7 +5,7 @@ Create a GitHub repository to automate sending webhook events for specific GitHu
 <br> ~ Develop the endpoint using Flask, following provided base code.</b>
 <br> ~ Store data in MongoDB with specified schema.</b>
 <br> ~ Design a clean and minimal UI, fetching and displaying data every 15 seconds.</b>
-
+  <br></br>
   </b>PUSH Action:</b>
    <br> ~ {author} pushed to {to_branch} on {timestamp}</b>
    <br> ~ Sample: "Travis" pushed to "staging" on 1st April 2021 - 9:30 PM UTC</br>
@@ -17,7 +17,7 @@ Create a GitHub repository to automate sending webhook events for specific GitHu
   </b>MERGE Action (Bonus):</b>
    <br> ~ {author} merged branch {from_branch} to {to_branch} on {timestamp}</b>
    <br> ~ Sample: "Travis" merged branch "dev" to "master" on 2nd April 2021 - 12:00 PM UTC</br>
- 
+<br></br>
 <b>Tools and Languages used:</b>
 <br>1. <b>Designing:</b> Basic HTML, CSS (with Bootstrap 5)
 <br>2. <b>Frontend:</b> JS
