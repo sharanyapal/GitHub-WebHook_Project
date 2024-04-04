@@ -1,5 +1,20 @@
-# Github Webhook Project
- Keeps polling from a given Github repo for any changes such as Push, Fork, Pull Requests and Merge Requests. Updates itself after every 15 seconds.
+Create a GitHub repository to automate sending webhook events for specific GitHub actions (Push, Pull Request, Merge) to a registered endpoint. The endpoint should store these events in MongoDB. The UI should periodically fetch data from MongoDB and display the latest changes from the repository.
+
+# Implementation Guidelines:
+<br> ~ Utilize GitHub webhooks for integration with the action repository.</b>
+<br> ~ Develop the endpoint using Flask, following provided base code.</b>
+<br> ~ Store data in MongoDB with specified schema.</b>
+<br> ~ Design a clean and minimal UI, fetching and displaying data every 15 seconds.</b>
+
+  # PUSH Action:
+   <br> ~ {author} pushed to {to_branch} on {timestamp}</b>
+   <br> ~ Sample: "Travis" pushed to "staging" on 1st April 2021 - 9:30 PM UTC</b>
+  # PULL_REQUEST Action:
+   <br> ~ {author} submitted a pull request from {from_branch} to {to_branch} on {timestamp}</b>
+   <br> ~ Sample: "Travis" submitted a pull request from "staging" to "master" on 1st April 2021 - 9:00 AM UTC</b>
+  # MERGE Action (Bonus):
+   <br> ~ {author} merged branch {from_branch} to {to_branch} on {timestamp}</b>
+   <br> ~ Sample: "Travis" merged branch "dev" to "master" on 2nd April 2021 - 12:00 PM UTC</b>
  
 <b>Tools and Languages used:</b>
 <br>1. <b>Designing:</b> Basic HTML, CSS (with Bootstrap 5)
