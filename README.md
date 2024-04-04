@@ -7,13 +7,15 @@ Create a GitHub repository to automate sending webhook events for specific GitHu
 <br> ~ Design a clean and minimal UI, fetching and displaying data every 15 seconds.</b>
 
   </b>PUSH Action:</b>
-   <br> ~ {author} pushed to {to_branch} on {timestamp}</br>
+   <br> ~ {author} pushed to {to_branch} on {timestamp}</b>
    <br> ~ Sample: "Travis" pushed to "staging" on 1st April 2021 - 9:30 PM UTC</br>
+   <br></br>
   </b>PULL_REQUEST Action:</b>
-   <br> ~ {author} submitted a pull request from {from_branch} to {to_branch} on {timestamp}</br>
+   <br> ~ {author} submitted a pull request from {from_branch} to {to_branch} on {timestamp}</b>
    <br> ~ Sample: "Travis" submitted a pull request from "staging" to "master" on 1st April 2021 - 9:00 AM UTC</br>
+   <br></br>
   </b>MERGE Action (Bonus):</b>
-   <br> ~ {author} merged branch {from_branch} to {to_branch} on {timestamp}</br>
+   <br> ~ {author} merged branch {from_branch} to {to_branch} on {timestamp}</b>
    <br> ~ Sample: "Travis" merged branch "dev" to "master" on 2nd April 2021 - 12:00 PM UTC</br>
  
 <b>Tools and Languages used:</b>
